@@ -31,6 +31,7 @@ public class Java8Tester implements FuntianlIntefaceExample, Vehicle {
 		test.sortUsingJava8(names2);
 		System.out.println(names2);
 		
+		//Lambda Expressions
 		GreetingService greetService1 = message -> 
 			System.out.println(salutation + message);
 		greetService1.sayMessage("Mahesh");
